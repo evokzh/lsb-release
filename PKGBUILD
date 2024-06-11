@@ -4,13 +4,13 @@
 # Contributor: John Gerritse <reaphsharc@gmail.com>
 
 pkgname=lsb-release
-pkgver=2.0.r53.a86f885
-_commit=a86f885597a91cd41837d706bf6a08d4c239a54b
+pkgver=2.0.r55.a25a4fc
+_commit=a25a4fcd73c79bd5af0dd8d948a7c96dcbfd2d07
 pkgrel=1
 pkgdesc="LSB version query program"
 arch=('any')
 url="https://refspecs.linuxfoundation.org/lsb.shtml"
-license=('GPL')
+license=('GPL-2.0-or-later')
 depends=('sh')
 makedepends=('git')
 source=("git+https://github.com/LinuxStandardBase/lsb-samples.git#commit=$_commit"
